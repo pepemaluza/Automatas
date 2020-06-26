@@ -1,4 +1,5 @@
 package E01;
 
-public class Input {
+public class Input{
+    
 }
