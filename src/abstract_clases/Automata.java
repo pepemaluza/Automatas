@@ -1,8 +1,5 @@
 package abstract_clases;
 
-import enums.E01_Inputs;
-import enums.E01_States;
-
 import java.util.HashMap;
 
 public abstract class Automata {

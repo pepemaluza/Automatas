@@ -1,8 +1,8 @@
 package e01;
 
 import abstract_clases.State;
-import enums.E01_Inputs;
-import enums.E01_States;
+import e01.enums.E01_Inputs;
+import e01.enums.E01_States;
 
 import java.util.HashMap;
 

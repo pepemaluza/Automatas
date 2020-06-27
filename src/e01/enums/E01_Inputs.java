@@ -1,4 +1,4 @@
-package enums;
+package e01.enums;
 
 public class E01_Inputs {
     public static String MATERIALS_NOT_AVAILABLE="Iniciar maquina sin vaso";
