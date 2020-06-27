@@ -9,16 +9,12 @@ import java.util.*;
 public class Exercises1Runner {
 
     public static void main(String[] args) {
-        while (true){
-            executeProgram();
-        }
-
+        executeProgram();
     }
 
-    public static void executeProgram(){
+    public static void executeProgram() {
         VendingMachine vendingMachine = new VendingMachine();
         Scanner scanner = new Scanner(System.in);
-
 
 
         while (true) {
@@ -39,8 +35,7 @@ public class Exercises1Runner {
                 }
                 vendingMachine.receiveInput(E01_Inputs.FINISH_SERVING);
                 break;
-            }
-            else {
+            } else {
                 System.out.println("Posibles acciones: ");
                 System.out.println(" ");
                 System.out.println("0- Terminar programa");
@@ -56,10 +51,15 @@ public class Exercises1Runner {
             switch (nextInt) {
                 case 0:
                     System.exit(0);
-
-                default:
+                    break;
+                case 1:
+                case 2:
                     action = possibleActions.get(nextInt - 1);
                     vendingMachine.receiveInput(action);
+                    break;
+
+                default:
+                    System.out.println("Invalid input. Retry!");
 
             }
         }

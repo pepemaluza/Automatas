@@ -9,7 +9,7 @@ import java.util.HashMap;
 public class S06_E1 extends State {
 
     public S06_E1() {
-        HashMap<String, E01_States> map = new HashMap<>();
+        HashMap<String, Enum> map = new HashMap<>();
         map.put(E01_Inputs.FINISH_SERVING,E01_States.S0);
         setPossibleOutcomes(map);
         setDescription("Terminando de servir cafe");

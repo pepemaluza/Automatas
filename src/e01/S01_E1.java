@@ -9,7 +9,7 @@ import java.util.HashMap;
 public class S01_E1 extends State {
 
     public S01_E1() {
-        HashMap<String, E01_States> map = new HashMap<>();
+        HashMap<String, Enum> map = new HashMap<>();
         map.put(E01_Inputs.MATERIALS_AVAILABLE,E01_States.S2);
         map.put(E01_Inputs.MATERIALS_NOT_AVAILABLE,E01_States.S1);
         setPossibleOutcomes(map);

@@ -9,7 +9,7 @@ public abstract class Automata {
 
     State currentState;
 
-    HashMap<String, E01_States> possibleOutcomes;
+    HashMap<String, Enum> possibleOutcomes;
 
     public abstract void receiveInput(String input);
 
@@ -23,11 +23,11 @@ public abstract class Automata {
         this.currentState = currentState;
     }
 
-    public HashMap<String, E01_States> getPossibleOutcomes() {
+    public HashMap<String, Enum> getPossibleOutcomes() {
         return possibleOutcomes;
     }
 
-    public void setPossibleOutcomes(HashMap<String, E01_States> possibleOutcomes) {
+    public void setPossibleOutcomes(HashMap<String, Enum> possibleOutcomes) {
         this.possibleOutcomes = possibleOutcomes;
     }
 

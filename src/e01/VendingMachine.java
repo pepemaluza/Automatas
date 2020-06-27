@@ -45,7 +45,7 @@ public class VendingMachine extends Automata {
 
     @Override
     public void receiveInput(String input) {
-       E01_States currentStateEnum = currentState.calculateNextState(input);
+       E01_States currentStateEnum = (E01_States) currentState.calculateNextState(input);
        setCurrentState(statesMap.get(currentStateEnum));
        outPut();
     }
