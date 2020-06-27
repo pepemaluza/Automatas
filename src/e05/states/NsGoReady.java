@@ -12,7 +12,7 @@ public class NsGoReady extends State {
         HashMap<String, Enum> map = new HashMap<>();
         map.put(E05_Inputs.CAR_EW, E05_States.NS_STOPPING);
         setPossibleOutcomes(map);
-        setDescription("Se termino el timer");
+        setDescription("Se termino el Timer");
     }
 
 }

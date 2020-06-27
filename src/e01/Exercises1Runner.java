@@ -57,7 +57,7 @@ public class Exercises1Runner {
                     break;
 
                 default:
-                    System.out.println("Invalid input. Retry!");
+                    System.out.println("Input invalido, reintente.");
 
             }
         }

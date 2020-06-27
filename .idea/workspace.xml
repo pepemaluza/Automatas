@@ -2,33 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fb4c5e7-31d7-4769-b15f-f845c148ac83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e05/Exercises5Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e05/Output.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e05/TrafficController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e05/enums/E05_Inputs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e05/enums/E05_States.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e05/states/EwGo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e05/states/EwGoChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e05/states/EwGoReady.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e05/states/EwStopping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e05/states/NsGo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e05/states/NsGoChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e05/states/NsGoReady.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/e05/states/NsStopping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/abstract_clases/Automata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/abstract_clases/Automata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/e01/Exercises1Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e01/Exercises1Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/e01/S00_E1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e01/S00_E1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/e01/S01_E1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e01/S01_E1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/e01/S02_E1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e01/S02_E1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/e01/S03_E1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e01/S03_E1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/e01/S04_E1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e01/S04_E1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/e01/S05_E1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e01/S05_E1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/e01/S06_E1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e01/S06_E1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/e01/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e01/VendingMachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums/E01_Inputs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e01/enums/E01_Inputs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/enums/E01_States.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e01/enums/E01_States.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/e05/Exercises5Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e05/Exercises5Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/e05/states/NsGoReady.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/e05/states/NsGoReady.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +107,7 @@
       <updated>1593191976011</updated>
       <workItem from="1593191979359" duration="1537000" />
       <workItem from="1593195684770" duration="601000" />
-      <workItem from="1593263111721" duration="8404000" />
+      <workItem from="1593263111721" duration="9621000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1593192494240</created>
@@ -147,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593264400956</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="changes">
+      <created>1593271547632</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1593271547632</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,7 +139,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Abstract enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="Abstract enum" />
+    <MESSAGE value="changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1086" y="416" key="#com.intellij.ide.util.MemberChooser" timestamp="1593270135484">
@@ -179,26 +163,26 @@
       <screen x="0" y="0" width="2560" height="1399" />
     </state>
     <state x="1011" y="447" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/9.2160.1280.699/0.0.2560.1399@0.0.2560.1399" timestamp="1593264175436" />
-    <state x="859" y="291" key="CommitChangelistDialog2" timestamp="1593264399892">
+    <state x="859" y="291" key="CommitChangelistDialog2" timestamp="1593271546398">
       <screen x="0" y="0" width="2560" height="1399" />
     </state>
-    <state x="859" y="291" key="CommitChangelistDialog2/9.2160.1280.699/0.0.2560.1399@0.0.2560.1399" timestamp="1593264399892" />
-    <state width="2517" height="325" key="GridCell.Tab.0.bottom" timestamp="1593271367755">
+    <state x="859" y="291" key="CommitChangelistDialog2/9.2160.1280.699/0.0.2560.1399@0.0.2560.1399" timestamp="1593271546398" />
+    <state width="2517" height="325" key="GridCell.Tab.0.bottom" timestamp="1593272752757">
       <screen x="0" y="0" width="2560" height="1399" />
     </state>
-    <state width="2517" height="325" key="GridCell.Tab.0.bottom/9.2160.1280.699/0.0.2560.1399@0.0.2560.1399" timestamp="1593271367755" />
-    <state width="2517" height="325" key="GridCell.Tab.0.center" timestamp="1593271367755">
+    <state width="2517" height="325" key="GridCell.Tab.0.bottom/9.2160.1280.699/0.0.2560.1399@0.0.2560.1399" timestamp="1593272752757" />
+    <state width="2517" height="325" key="GridCell.Tab.0.center" timestamp="1593272752757">
       <screen x="0" y="0" width="2560" height="1399" />
     </state>
-    <state width="2517" height="325" key="GridCell.Tab.0.center/9.2160.1280.699/0.0.2560.1399@0.0.2560.1399" timestamp="1593271367755" />
-    <state width="2517" height="325" key="GridCell.Tab.0.left" timestamp="1593271367755">
+    <state width="2517" height="325" key="GridCell.Tab.0.center/9.2160.1280.699/0.0.2560.1399@0.0.2560.1399" timestamp="1593272752757" />
+    <state width="2517" height="325" key="GridCell.Tab.0.left" timestamp="1593272752757">
       <screen x="0" y="0" width="2560" height="1399" />
     </state>
-    <state width="2517" height="325" key="GridCell.Tab.0.left/9.2160.1280.699/0.0.2560.1399@0.0.2560.1399" timestamp="1593271367755" />
-    <state width="2517" height="325" key="GridCell.Tab.0.right" timestamp="1593271367755">
+    <state width="2517" height="325" key="GridCell.Tab.0.left/9.2160.1280.699/0.0.2560.1399@0.0.2560.1399" timestamp="1593272752757" />
+    <state width="2517" height="325" key="GridCell.Tab.0.right" timestamp="1593272752757">
       <screen x="0" y="0" width="2560" height="1399" />
     </state>
-    <state width="2517" height="325" key="GridCell.Tab.0.right/9.2160.1280.699/0.0.2560.1399@0.0.2560.1399" timestamp="1593271367755" />
+    <state width="2517" height="325" key="GridCell.Tab.0.right/9.2160.1280.699/0.0.2560.1399@0.0.2560.1399" timestamp="1593272752757" />
     <state width="2517" height="491" key="GridCell.Tab.1.bottom" timestamp="1593269476512">
       <screen x="0" y="0" width="2560" height="1399" />
     </state>
@@ -215,10 +199,10 @@
       <screen x="0" y="0" width="2560" height="1399" />
     </state>
     <state width="2517" height="491" key="GridCell.Tab.1.right/9.2160.1280.699/0.0.2560.1399@0.0.2560.1399" timestamp="1593269476512" />
-    <state x="873" y="433" key="Vcs.Push.Dialog.v2" timestamp="1593264405293">
+    <state x="873" y="433" key="Vcs.Push.Dialog.v2" timestamp="1593271549119">
       <screen x="0" y="0" width="2560" height="1399" />
     </state>
-    <state x="873" y="433" key="Vcs.Push.Dialog.v2/9.2160.1280.699/0.0.2560.1399@0.0.2560.1399" timestamp="1593264405293" />
+    <state x="873" y="433" key="Vcs.Push.Dialog.v2/9.2160.1280.699/0.0.2560.1399@0.0.2560.1399" timestamp="1593271549119" />
     <state x="1090" y="617" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593263137145">
       <screen x="0" y="0" width="2560" height="1399" />
     </state>
