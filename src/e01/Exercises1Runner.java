@@ -7,7 +7,9 @@ import java.util.*;
 public class Exercises1Runner {
 
     public static void main(String[] args) {
-        executeProgram();
+        while (true) {
+            executeProgram();
+        }
     }
 
     public static void executeProgram() {
@@ -30,6 +32,7 @@ public class Exercises1Runner {
                         }
                     }
                     System.out.println("Cafe servido");
+                    System.out.println(" ");
                 }
                 vendingMachine.receiveInput(E01_Inputs.FINISH_SERVING);
                 break;
